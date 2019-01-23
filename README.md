@@ -2,30 +2,22 @@
 
 ## Module installation
 
-The module is not published in PrestaShop’s Official Marketplace yet so the only way to install it right now is to upload a .zip file from the Urb-it’s github repository. 
-
-
-
-
-
-
-
 
 Please follow these steps:
 
-1. Go to the Urb-it’s shipping module for PrestaShop repository (https://github.com/urbitassociates/PrestaShop-Urbit-Delivery).
-2. Click “Clone or download” (green button on the right side).
-3. Push a “Download ZIP” button and the archive will be downloaded to your local machine.
-4. Unzip “PrestaShop-Urbit-Delivery-master.zip”.
-5. Rename “PrestaShop-Urbit-Delivery-master” folder to “urbit”.
-6. Add “urbit” folder to zip archive.
-7. Go to your PrestaShop’s admin panel.
-8. Go to Modules and Services -> Modules and Services
-9. Click on the “Add a new module” button
-10. Choose the archive with module and click “Upload this module”
-11. Find the module in your module list. You can set Authors filter to “urb-it”, or use search.
-12. Click on the “Install” button.
-13. After successful installation you will see the default “Presentation” tab of the module config.
+
+1. Click “Clone or download” (green button on the right side).
+2. Push a “Download ZIP” button and the archive will be downloaded to your local machine.
+3. Unzip “PrestaShop-Urbit-Delivery-master.zip”.
+4. Rename “PrestaShop-Urbit-Delivery-master” folder to “urbit”.
+5. Add “urbit” folder to zip archive.
+6. Go to your PrestaShop’s admin panel.
+7. Go to Modules and Services -> Modules and Services
+8. Click on the “Add a new module” button
+9. Choose the archive with module and click “Upload this module”
+10. Find the module in your module list. You can set Authors filter to “urb-it”, or use search.
+11. Click on the “Install” button.
+12. After successful installation you will see the default “Presentation” tab of the module config.
 
 
 
