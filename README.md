@@ -104,6 +104,7 @@ To make and order with Urb-it just follow the straight steps:
 5. Choose the delivery date.
 
 *Now* - products will be delivered as soon as possible
+
 *Specific time (CET)* - you can choose a specific delivery date 
 
 ![Alt text](../assets/image10.png?raw=true)
