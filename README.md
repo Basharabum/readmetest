@@ -11,6 +11,7 @@ Please follow these steps:
 3. Unzip “PrestaShop-Urbit-Delivery-master.zip”.
 4. Rename “PrestaShop-Urbit-Delivery-master” folder to “urbit”.
 5. Add “urbit” folder to zip archive.
+![Alt text](../assets/image1.png?raw=true)
 6. Go to your PrestaShop’s admin panel.
 7. Go to Modules and Services -> Modules and Services
 8. Click on the “Add a new module” button
