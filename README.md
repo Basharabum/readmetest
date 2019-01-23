@@ -8,22 +8,22 @@ Please follow these steps:
 
 1. Click “Clone or download” (green button on the right side).
 2. Push a “Download ZIP” button and the archive will be downloaded to your local machine.
-3. Unzip “PrestaShop-Urbit-Delivery-master.zip”.
-4. Rename “PrestaShop-Urbit-Delivery-master” folder to “urbit”.
-5. Add “urbit” folder to zip archive.
+3. Unzip `PrestaShop-Urbit-Delivery-master.zip`.
+4. Rename `PrestaShop-Urbit-Delivery-master` folder to `urbit`.
+5. Add `urbit` folder to zip archive.
 
 ![Zip archive with module](doc/images/image1.png)
 
 6. Go to your PrestaShop’s admin panel.
-7. Go to Modules and Services -> Modules and Services
+7. Go to `Modules and Services -> Modules and Services`
 
 ![Modules and services menu](doc/images/image17.png)
 
-8. Click on the “Add a new module” button
+8. Click on the **Add a new module** button
 
 ![Add a new module button](doc/images/image5.png)
 
-9. Choose the archive with module and click “Upload this module”
+9. Choose the archive with module and click **Upload this module**
 
 ![Choose a file for uploading](doc/images/image14.png)
 
@@ -31,7 +31,7 @@ Please follow these steps:
 
 ![Module list](doc/images/image13.png)
 
-11. Click on the “Install” button.
+11. Click on the **Install** button.
 
 ![Install button](doc/images/image15.png)
 
@@ -44,12 +44,12 @@ Please follow these steps:
 ## Module settings
 
 1. Go to your PrestaShop’s admin panel.
-2. Go to Modules and Services -> Modules and Services
+2. Go to `Modules and Services -> Modules and Services`
 3. Find the module in your module list. You can set Authors filter to “urb-it”, or use search.
 
 ![Module list](doc/images/image4.png)
 
-4. Click on the “Configure” button
+4. Click on the **Configure** button
 
 ![Configure button](doc/images/image6.png)
 
@@ -62,7 +62,7 @@ The module has a close interaction with Urb-it API so it is impossible to use it
 
 ![Module config credentials tab](doc/images/image18.png)
 
-There are two environments with different credentials: “Production” and “Test”.
+There are two environments with different credentials: **Production** and **Test**.
 
 - `Urb-it API Key` - key received from Urb-it
 
@@ -143,7 +143,7 @@ The entered address is validated by Urb-it API. You will see validation error if
 
 To see the details of the order that we just made, go back to the PrestaShop’s admin panel.
 
-1. In the left menu bar select “Orders -> Orders”.
+1. In the left menu bar select `Orders -> Orders`.
 
 ![PrestaShop's Orders menu](doc/images/image2.png)
 
@@ -153,7 +153,7 @@ To see the details of the order that we just made, go back to the PrestaShop’s
 ![PrestaShop's order page](doc/images/image21.png)
 
 
-You can see Urb-it delivery information in “URB-IT TIME AND ADDRESS” tab.
+You can see Urb-it delivery information in **URB-IT TIME AND ADDRESS** tab.
 
 ![Urb-it infomtation on the order page](doc/images/image20.png)
 
