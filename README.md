@@ -103,7 +103,7 @@ To make and order with Urb-it just follow the straight steps:
 3. Go to checkout.
 4. Choose **urb-it delivery** on the checkout’s shipping step.
 
-![Alt text](/doc/images/image18.png?raw=true)
+![Alt text](/doc/images/image7.png?raw=true)
 
 5. Choose the delivery date.
 
