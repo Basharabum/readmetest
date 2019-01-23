@@ -64,10 +64,13 @@ The module has a close interaction with Urb-it API so it is impossible to use it
 There are two environments with different credentials: “Production” and “Test”.
 
 *Urb-it API Key* - key received from Urb-it
+
 *Bearer JWT Token* - token received from Urb-it
 
 *Production Environment API URL*:  https://api.urb-it.com
+
 *Test/Sandbox Environment API URL*:  https://sandbox.urb-it.com
+
 **Check “Enable test mode” if you want to use a sandbox environment.**
 
 
