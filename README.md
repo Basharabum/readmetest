@@ -82,17 +82,17 @@ Check “Enable test mode” if you want to use a sandbox environment.
 ![Module config general tab](doc/images/image11.png)
 
 
-*Enable urb-it Specific Time for no of days* - the number of the next days on which delivery can be arranged.
+- `Enable urb-it Specific Time for no of days` - the number of the next days on which delivery can be arranged.
 
-*Send order failure report to email* - email, which will receive error messages.
+- `Send order failure report to email` - email, which will receive error messages.
 
-*Now order auto-validation time (in minutes)*- the time after which the message will be sent to Urbit that the order is ready for delivery. (You can leave it blank and use only Order status trigger for confirmation).
+- `Now order auto-validation time (in minutes)` - the time after which the message will be sent to Urbit that the order is ready for delivery. (You can leave it blank and use only Order status trigger for confirmation).
 
-*Order status trigger for confirmation* - order status, after which a message will be send to Urbit that the order is ready for delivery.
+- `Order status trigger for confirmation` - order status, after which a message will be send to Urbit that the order is ready for delivery.
 
-*Order status trigger for delete* - deletion of stored local customer data (for GDPR).
+- `Order status trigger for delete` - deletion of stored local customer data (for GDPR).
 
-*Urb-it Flat Fee* - shipping cost in different currencies.
+- `Urb-it Flat Fee` - shipping cost in different currencies.
 
 
 
@@ -109,9 +109,9 @@ To make and order with Urb-it just follow the straight steps:
 
 5. Choose the delivery date.
 
-*Now* - products will be delivered as soon as possible
+`Now` - products will be delivered as soon as possible
 
-*Specific time (CET)* - you can choose a specific delivery date 
+`Specific time (CET)` - you can choose a specific delivery date 
 
 ![Specific time datepicker](doc/images/image10.png)
 
@@ -166,7 +166,7 @@ You can see Urb-it delivery information in “URB-IT TIME AND ADDRESS” tab.
 ![PrestaShop's order update status](doc/images/image16.png)
 
 1. Switch the order status to the “trigger” status.
-1. Update order by clicking “Update status”.
+2. Update order by clicking “Update status”.
 
 
 
