@@ -11,6 +11,7 @@ Please follow these steps:
 3. Unzip “PrestaShop-Urbit-Delivery-master.zip”.
 4. Rename “PrestaShop-Urbit-Delivery-master” folder to “urbit”.
 5. Add “urbit” folder to zip archive.
+
 ![Alt text](/doc/images/image1.png?raw=true)
 
 6. Go to your PrestaShop’s admin panel.
