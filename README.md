@@ -12,32 +12,32 @@ Please follow these steps:
 4. Rename “PrestaShop-Urbit-Delivery-master” folder to “urbit”.
 5. Add “urbit” folder to zip archive.
 
-![Alt text](/doc/images/image1.png?raw=true)
+![Zip archive with module](doc/images/image1.png)
 
 6. Go to your PrestaShop’s admin panel.
 7. Go to Modules and Services -> Modules and Services
 
-![Alt text](/doc/images/image17.png?raw=true)
+![Modules and services menu](doc/images/image17.png)
 
 8. Click on the “Add a new module” button
 
-![Alt text](/doc/images/image5.png?raw=true)
+![Add a new module button](doc/images/image5.png)
 
 9. Choose the archive with module and click “Upload this module”
 
-![Alt text](/doc/images/image14.png?raw=true)
+![Choose a file for uploading](doc/images/image14.png)
 
 10. Find the module in your module list. You can set Authors filter to “urb-it”, or use search.
 
-![Alt text](/doc/images/image13.png?raw=true)
+![Module list](doc/images/image13.png)
 
 11. Click on the “Install” button.
 
-![Alt text](/doc/images/image15.png?raw=true)
+![Install button](doc/images/image15.png)
 
 12. After successful installation you will see the default “Presentation” tab of the module config.
 
-![Alt text](/doc/images/image12.png?raw=true)
+![Module config presentation tab](doc/images/image12.png)
 
 
 
@@ -47,11 +47,11 @@ Please follow these steps:
 2. Go to Modules and Services -> Modules and Services
 3. Find the module in your module list. You can set Authors filter to “urb-it”, or use search.
 
-![Alt text](/doc/images/image4.png?raw=true)
+![Module list](doc/images/image4.png)
 
 4. Click on the “Configure” button
 
-![Alt text](/doc/images/image6.png?raw=true)
+![Configure button](doc/images/image6.png)
 
 
 
@@ -60,24 +60,26 @@ Please follow these steps:
 
 The module has a close interaction with Urb-it API so it is impossible to use it without environment credentials. 
 
-![Alt text](/doc/images/image18.png?raw=true)
+![Module config credentials tab](doc/images/image18.png)
 
 There are two environments with different credentials: “Production” and “Test”.
 
-*Urb-it API Key* - key received from Urb-it
+- `Urb-it API Key` - key received from Urb-it
 
-*Bearer JWT Token* - token received from Urb-it
+- `Bearer JWT Token` - token received from Urb-it
 
-*Production Environment API URL*:  https://api.urb-it.com
+- `Production Environment API URL`:  https://api.urb-it.com
 
-*Test/Sandbox Environment API URL*:  https://sandbox.urb-it.com
+- `Test/Sandbox Environment API URL`:  https://sandbox.urb-it.com
 
-**Check “Enable test mode” if you want to use a sandbox environment.**
+```
+Check “Enable test mode” if you want to use a sandbox environment.
+```
 
 
 ### General settings
 
-![Alt text](/doc/images/image18.png?raw=true)
+![Module config general tab](doc/images/image11.png)
 
 
 *Enable urb-it Specific Time for no of days* - the number of the next days on which delivery can be arranged.
@@ -103,7 +105,7 @@ To make and order with Urb-it just follow the straight steps:
 3. Go to checkout.
 4. Choose **urb-it delivery** on the checkout’s shipping step.
 
-![Alt text](/doc/images/image7.png?raw=true)
+![Urb-it shipping form on checkout](doc/images/image7.png)
 
 5. Choose the delivery date.
 
@@ -111,25 +113,25 @@ To make and order with Urb-it just follow the straight steps:
 
 *Specific time (CET)* - you can choose a specific delivery date 
 
-![Alt text](/doc/images/image10.png?raw=true)
+![Specific time datepicker](doc/images/image10.png)
 
 All available delivery dates and time took from the Urb-it API according to X-API-Key (individual for each customer). The administrator can limit the number of possible days for delivery in the module configuration (*“Enable urb-it Specific Time for no of days”* selectbox)
 
 
 6. Fill in the customer’s name and address information.
 
-![Alt text](/doc/images/image9.png?raw=true)
+![Urb-it shipping form's recipient information](doc/images/image9.png)
 
 By default, data is copied from the customer’s address.
 
 The entered address is validated by Urb-it API. You will see validation error if the address is malformed or is outside the delivery area.
 
-![Alt text](/doc/images/image8.png?raw=true)
+![Urb-it shipping form's validation](doc/images/image8.png)
 
 
-7. Fill in phone number (required) and message for urber (optional).
+7. Fill in phone number (required), email (required) and message for urber (optional).
 
-![Alt text](/doc/images/image19.png?raw=true)
+![Urb-it shipping form's phone and email](doc/images/image19.png)
 
 8. Go to the next checkout’s step and confirm your order. 
 
@@ -143,25 +145,25 @@ To see the details of the order that we just made, go back to the PrestaShop’s
 
 1. In the left menu bar select “Orders -> Orders”.
 
-![Alt text](/doc/images/image2.png?raw=true)
+![PrestaShop's Orders menu](doc/images/image2.png)
 
 2. Choose your order from the list 
 3. Go to order details page
 
-![Alt text](/doc/images/image21.png?raw=true)
+![PrestaShop's order page](doc/images/image21.png)
 
 
 You can see Urb-it delivery information in “URB-IT TIME AND ADDRESS” tab.
 
-![Alt text](/doc/images/image20.png?raw=true)
+![Urb-it infomtation on the order page](doc/images/image20.png)
 
-There you have two options:
+**There you have two options:**
 1. Wait for the order will be sent to Urb-it by the time picked at checkout (scheduled by the cron task).
 2. In case when order prepared earlier you can mark it as ready to ship by changing the order status to one specified in Urb-it configuration. Then order will be triggered (cron task will be dropped) and order will go to Urb-it (it will notify Urb-it that it is ready to be shipped).
 
-To trigger the order please follow the next steps:
+**To trigger the order please follow the next steps:**
 
-![Alt text](/doc/images/image16.png?raw=true)
+![PrestaShop's order update status](doc/images/image16.png)
 
 1. Switch the order status to the “trigger” status.
 1. Update order by clicking “Update status”.
