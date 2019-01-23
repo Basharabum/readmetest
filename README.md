@@ -41,12 +41,12 @@ The module has a close interaction with Urb-it API so it is impossible to use it
 
 There are two environments with different credentials: “Production” and “Test”.
 
-Urb-it API Key - key received from Urb-it
-Bearer JWT Token - token received from Urb-it
+*Urb-it API Key* - key received from Urb-it
+*Bearer JWT Token* - token received from Urb-it
 
-Production Environment API URL:  https://api.urb-it.com
-Test/Sandbox Environment API URL:  https://sandbox.urb-it.com
-Check “Enable test mode” if you want to use a sandbox environment.
+*Production Environment API URL*:  https://api.urb-it.com
+*Test/Sandbox Environment API URL*:  https://sandbox.urb-it.com
+**Check “Enable test mode” if you want to use a sandbox environment.**
 
 
 ### General settings
@@ -54,17 +54,17 @@ Check “Enable test mode” if you want to use a sandbox environment.
 
 
 
-Enable urb-it Specific Time for no of days - the number of the next days on which delivery can be arranged.
+*Enable urb-it Specific Time for no of days* - the number of the next days on which delivery can be arranged.
 
-Send order failure report to email - email, which will receive error messages.
+*Send order failure report to email* - email, which will receive error messages.
 
-Now order auto-validation time (in minutes)- the time after which the message will be sent to Urbit that the order is ready for delivery. (You can leave it blank and use only Order status trigger for confirmation).
+*Now order auto-validation time (in minutes)*- the time after which the message will be sent to Urbit that the order is ready for delivery. (You can leave it blank and use only Order status trigger for confirmation).
 
-Order status trigger for confirmation - order status, after which a message will be send to Urbit that the order is ready for delivery.
+*Order status trigger for confirmation* - order status, after which a message will be send to Urbit that the order is ready for delivery.
 
-Order status trigger for delete - deletion of stored local customer data (for GDPR).
+*Order status trigger for delete* - deletion of stored local customer data (for GDPR).
 
-Urb-it Flat Fee - shipping cost in different currencies.
+*Urb-it Flat Fee* - shipping cost in different currencies.
 
 
 
@@ -75,15 +75,15 @@ To make and order with Urb-it just follow the straight steps:
 1. Go to the storefront.
 2. Place some products to basket.
 3. Go to checkout.
-4. Choose urb-it delivery on the checkout’s shipping step.
+4. Choose **urb-it delivery** on the checkout’s shipping step.
 5. Choose the delivery date.
 
-Now - products will be delivered as soon as possible
-Specific time (CET) - you can choose a specific delivery date 
+*Now* - products will be delivered as soon as possible
+*Specific time (CET)* - you can choose a specific delivery date 
 
 
 
-All available delivery dates and time took from the Urb-it API according to X-API-Key (individual for each customer). The administrator can limit the number of possible days for delivery in the module configuration (“Enable urb-it Specific Time for no of days” selectbox)
+All available delivery dates and time took from the Urb-it API according to X-API-Key (individual for each customer). The administrator can limit the number of possible days for delivery in the module configuration (*“Enable urb-it Specific Time for no of days”* selectbox)
 
 
 6. Fill in the customer’s name and address information.
