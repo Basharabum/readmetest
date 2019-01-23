@@ -1,6 +1,6 @@
-#Urb-it shipping plugin for PrestaShop
+# Urb-it shipping plugin for PrestaShop
 
-##Module installation
+## Module installation
 
 The module is not published in PrestaShop’s Official Marketplace yet so the only way to install it right now is to upload a .zip file from the Urb-it’s github repository. 
 
@@ -30,7 +30,7 @@ Please follow these steps:
 
 
 
-##Module settings
+## Module settings
 
 1. Go to your PrestaShop’s admin panel.
 2. Go to Modules and Services -> Modules and Services
@@ -40,7 +40,7 @@ Please follow these steps:
 
 
 
-###Credentials settings
+### Credentials settings
 
 The module has a close interaction with Urb-it API so it is impossible to use it without environment credentials. 
 
@@ -57,7 +57,7 @@ Test/Sandbox Environment API URL:  https://sandbox.urb-it.com
 Check “Enable test mode” if you want to use a sandbox environment.
 
 
-###General settings
+### General settings
 
 
 
@@ -76,7 +76,7 @@ Urb-it Flat Fee - shipping cost in different currencies.
 
 
 
-##Placing an order with Urb-it shipping
+## Placing an order with Urb-it shipping
 
 To make and order with Urb-it just follow the straight steps:
 
@@ -114,7 +114,7 @@ The entered address is validated by Urb-it API. You will see validation error if
 
 
 
-##Checking just received order
+## Checking just received order
 
 To see the details of the order that we just made, go back to the PrestaShop’s admin panel.
 
