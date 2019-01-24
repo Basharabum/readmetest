@@ -3,8 +3,12 @@
 
 # Table of Contents
 
-1. [ Installation ](#installation)
-2. [ Usage ](#usage)
+- [ Installation ](#installation)
+- [ Usage ](#usage)
+  - [ Module settings ](#module-settings)
+    - [ Credentials settings ](#credentials-settings)
+    - [ General settings ](#general-settings)
+  - [ Placing an order with Urb-it shipping ](#placing-an-order-with-urb-it-shipping)
 
 
 
@@ -55,9 +59,8 @@ otherwise the module is not displayed in the list after the archive is loaded.
 ![Module config presentation tab](doc/images/image12.png)
 
 
-<a name="usage"></a>
 ## Usage
-
+<a name="module-settings"></a>
 ### Module settings
 
 1. Go to your PrestaShop’s admin panel.
@@ -72,7 +75,7 @@ otherwise the module is not displayed in the list after the archive is loaded.
 
 
 
-
+<a name="credentials-settings"></a>
 #### Credentials settings
 
 The module has a close interaction with Urb-it API so it is impossible to use it without environment credentials. 
@@ -93,7 +96,7 @@ There are two environments with different credentials: **Production** and **Test
 Check “Enable test mode” if you want to use a sandbox environment.
 ```
 
-
+<a name="general-settings"></a>
 #### General settings
 
 ![Module config general tab](doc/images/image11.png)
@@ -112,7 +115,7 @@ Check “Enable test mode” if you want to use a sandbox environment.
 - `Urb-it Flat Fee` - shipping cost in different currencies.
 
 
-
+<a name="placing-an-order-with-urb-it-shipping"></a>
 ### Placing an order with Urb-it shipping
 
 To make and order with Urb-it just follow the straight steps:
