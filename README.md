@@ -1,5 +1,5 @@
 # Urb-it shipping plugin for PrestaShop
-
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 ## Module installation
 
 
@@ -8,6 +8,12 @@ Please follow these steps:
 
 1. Click “Clone or download” (green button on the right side).
 2. Push a “Download ZIP” button and the archive will be downloaded to your local machine.
+
+```
+In PrestaShop, the folder with the module must have the same name as the module itself, 
+otherwise the module is not displayed in the list after the archive is loaded.
+```
+
 3. Unzip `PrestaShop-Urbit-Delivery-master.zip`.
 4. Rename `PrestaShop-Urbit-Delivery-master` folder to `urbit`.
 5. Add `urbit` folder to zip archive.
@@ -168,7 +174,16 @@ You can see Urb-it delivery information in **URB-IT TIME AND ADDRESS** tab.
 1. Switch the order status to the “trigger” status.
 2. Update order by clicking “Update status”.
 
+### Support
+If you have any issues with this extension, contact us at support@urbit.com
 
+### Contribution 
+
+Any contribution is highly appreciated. The best way to contribute code is to open a pull request on GitHub.
+
+### Credits 
+
+2018 Urb-it
 
 
 
