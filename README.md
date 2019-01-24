@@ -1,6 +1,15 @@
 # Urb-it shipping plugin for PrestaShop
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
-## Module installation
+
+# Table of Contents
+
+1. [ Installation ](#installation)
+2. [ Usage ](#usage)
+
+
+
+<a name="installation"></a>
+## Installation
 
 
 Please follow these steps:
@@ -46,8 +55,10 @@ otherwise the module is not displayed in the list after the archive is loaded.
 ![Module config presentation tab](doc/images/image12.png)
 
 
+<a name="usage"></a>
+## Usage
 
-## Module settings
+### Module settings
 
 1. Go to your PrestaShop’s admin panel.
 2. Go to `Modules and Services -> Modules and Services`
@@ -62,7 +73,7 @@ otherwise the module is not displayed in the list after the archive is loaded.
 
 
 
-### Credentials settings
+#### Credentials settings
 
 The module has a close interaction with Urb-it API so it is impossible to use it without environment credentials. 
 
@@ -83,7 +94,7 @@ Check “Enable test mode” if you want to use a sandbox environment.
 ```
 
 
-### General settings
+#### General settings
 
 ![Module config general tab](doc/images/image11.png)
 
@@ -102,7 +113,7 @@ Check “Enable test mode” if you want to use a sandbox environment.
 
 
 
-## Placing an order with Urb-it shipping
+### Placing an order with Urb-it shipping
 
 To make and order with Urb-it just follow the straight steps:
 
@@ -145,7 +156,7 @@ The entered address is validated by Urb-it API. You will see validation error if
 
 
 
-## Checking just received order
+### Checking just received order
 
 To see the details of the order that we just made, go back to the PrestaShop’s admin panel.
 
@@ -177,7 +188,7 @@ You can see Urb-it delivery information in **URB-IT TIME AND ADDRESS** tab.
 ## Support
 If you have any issues with this extension, contact us at support@urbit.com
 
-## Contribution 
+## Contributing 
 
 Any contribution is highly appreciated. The best way to contribute code is to open a pull request on GitHub.
 
