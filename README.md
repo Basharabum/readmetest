@@ -174,14 +174,14 @@ You can see Urb-it delivery information in **URB-IT TIME AND ADDRESS** tab.
 1. Switch the order status to the “trigger” status.
 2. Update order by clicking “Update status”.
 
-### Support
+## Support
 If you have any issues with this extension, contact us at support@urbit.com
 
-### Contribution 
+## Contribution 
 
 Any contribution is highly appreciated. The best way to contribute code is to open a pull request on GitHub.
 
-### Credits 
+## Credits 
 
 2018 Urb-it
 
